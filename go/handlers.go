@@ -111,3 +111,4 @@ func (c routerCtx) GreyscaleImage(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Content-Length", strconv.Itoa(buf.Len()))
 	w.Write(buf.Bytes())
 }
+
