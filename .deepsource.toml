@@ -4,28 +4,16 @@ version = 1
 name = "csharp"
 
 [[analyzers]]
-name = "shell"
-
-[[analyzers]]
-name = "scala"
-
-[[analyzers]]
 name = "rust"
 
   [analyzers.meta]
   msrv = "stable"
 
 [[analyzers]]
-name = "javascript"
+name = "scala"
 
 [[analyzers]]
-name = "python"
-
-  [analyzers.meta]
-  runtime_version = "3.x.x"
-
-[[analyzers]]
-name = "ruby"
+name = "php"
 
 [[analyzers]]
 name = "java"
@@ -34,10 +22,22 @@ name = "java"
   runtime_version = "11"
 
 [[analyzers]]
-name = "php"
+name = "shell"
+
+[[analyzers]]
+name = "javascript"
+
+[[analyzers]]
+name = "ruby"
 
 [[analyzers]]
 name = "go"
 
   [analyzers.meta]
-  import_root = "github.com/rdspg/Gigarepo"
+  import_root = "github.com/QuackCentral/Gigarepo"
+
+[[analyzers]]
+name = "python"
+
+  [analyzers.meta]
+  runtime_version = "3.x.x"
